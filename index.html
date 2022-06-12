@@ -1,164 +1,168 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <title>Meu site</title>
-        <link rel="icon" type="image/x-icon" href="./imagens/icone.png" />
-        <link rel="stylesheet" href="./css/style.css" />
-        <link rel="stylesheet" href="./css/responsive.css" />
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StartSe</title>
+    <link rel="icon" type="image/x-icon" href="./imagens/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+</head>
 
-    <body>
-        <header>
-            <div class="container">
-                <img src="./imagens/Logo.png" alt="logo" />
-                <div class="menu-section">
-                    <div class="container-menu">
-                        <input type="checkbox" id="checkbox-menu" />
-                        <label class="menu-button-container" for="checkbox-menu">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </label>
-                    </div>
+<body>
+    <header>
+        <div class="container">
+            <img src="./imagens/Logo.png" alt="logo" />
+            <div class="menu-section">
+                <div class="container-menu">
+                    <input type="checkbox" id="checkbox-menu" />
+                    <label class="menu-button-container" for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
                     <nav>
                         <ul class="menu">
                             <li>
-                                <a href="#">Home</a>
+                                <a href="#home">Home</a>
                             </li>
                             <li>
-                                <a href="#">Artigos</a>
+                                <a href="#artigos">Artigos</a>
                             </li>
                             <li>
-                                <a href="#">Contato</a>
+                                <a href="#form">Contato</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
-        </header>
-        <main>
-            <div class="container-main">
-                <div>
-                    <h2><span>Inscreva-se agora</span></h2>
-                    <h2>na Newsletter</h2>
-                    <h3>
-                        Provocando novos começos com um conhecimento transformador na
-                        velocidade do AGORA!
-                    </h3>
-
-                    <form>
-                        <input type="text" placeholder="Nome" />
-                        <input type="email" placeholder="E-mail" />
-                        <input type="submit" value="Enviar" />
-                    </form>
-                </div>
-
-                <img src="./imagens/register.webp" alt="" />
+        </div>
+    </header>
+    <main id="home">
+        <div class="container-main">
+            <div>
+                <h2><span>Inscreva-se agora</span></h2>
+                <h2>na Newsletter</h2>
+                <h3>
+                    Provocando novos começos com um conhecimento transformador na
+                    velocidade do AGORA!
+                </h3>
+                
+                <form>
+                    <input type="text" placeholder="Nome" />
+                    <input type="email" placeholder="E-mail" />
+                    <input type="submit" value="Enviar" />
+                </form>
             </div>
 
-        </main>
-        <section class="cards">
+            <img src="./imagens/register.webp" alt=""/>
+        </div>
+
+    </main>
+    <section id="artigos" class="cards">
+        <a href="https://www.startse.com/artigos/ferramentas-digitais-sao-chave-na-gestao-financeira-das-startups/">
             <div class="card">
                 <div class="image">
-                    <img src="./imagens/unicornio.webp" />
+                    <img src="./imagens/comp.webp" />
                 </div>
 
                 <div class="content">
                     <p class="title text--medium">
-                        Com startups mais 'baratas', grandes empresas buscam aquisições
+                        Por que ferramentas digitais são chave na gestão financeira das startups
                     </p>
                     <div class="info">
                         <p class="text--medium">57 Min</p>
                     </div>
                 </div>
             </div>
-
+        </a>
+        <a href="./artigos/futuro/futuro.html">
             <div class="card">
                 <div class="image">
-                    <img src="./imagens/unicornio.webp" />
+                    <img src="./imagens/futuro.webp" />
                 </div>
 
                 <div class="content">
                     <p class="title text--medium">
-                        Com startups mais 'baratas', grandes empresas buscam aquisições
+                        Qual o futuro das profissões na Nova Economia?
                     </p>
                     <div class="info">
                         <p class="text--medium">57 Min</p>
                     </div>
                 </div>
             </div>
+        </a>
 
-            <div class="card">
-                <div class="image">
-                    <img src="./imagens/unicornio.webp" />
-                </div>
+        <div class="card">
+            <div class="image">
+                <img src="./imagens/unicornio.webp" />
+            </div>
 
-                <div class="content">
-                    <p class="title text--medium">
-                        Com startups mais 'baratas', grandes empresas buscam aquisições
-                    </p>
-                    <div class="info">
-                        <p class="text--medium">57 Min</p>
-                    </div>
+            <div class="content">
+                <p class="title text--medium">
+                    Com startups mais 'baratas', grandes empresas buscam aquisições
+                </p>
+                <div class="info">
+                    <p class="text--medium">57 Min</p>
                 </div>
             </div>
-            <div class="card">
-                <div class="image">
-                    <img src="./imagens/unicornio.webp" />
-                </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./imagens/unicornio.webp" />
+            </div>
 
-                <div class="content">
-                    <p class="title text--medium">
-                        Com startups mais 'baratas', grandes empresas buscam aquisições
-                    </p>
-                    <div class="info">
-                        <p class="text--medium">57 Min</p>
-                    </div>
+            <div class="content">
+                <p class="title text--medium">
+                    Com startups mais 'baratas', grandes empresas buscam aquisições
+                </p>
+                <div class="info">
+                    <p class="text--medium">57 Min</p>
                 </div>
             </div>
-        </section>
-        <section id="form">
-            <div class="desafio">
-                <div class="contato-topo">
-                    <h2>Contato</h2>
-                </div>
-                <div class="contato-corpo">
-                    <h2>Dúvidas? Opiniões? Sugestões? Fale conosco aqui, nós queremos te escutar.</h2>
-                    <h3>Resgistre aqui a sua mensagem. Entraremos em contato em breve</h3>
-                </div>
+        </div>
+    </section>
+    <section id="form">
+        <div class="desafio">
+            <div class="contato-topo">
+                <h2>Contato</h2>
+            </div>
+            <div class="contato-corpo">
+                <h2>Dúvidas? Opiniões? Sugestões? Fale conosco aqui, nós queremos te escutar.</h2>
+                <h3>Resgistre aqui a sua mensagem. Entraremos em contato em breve</h3>
+            </div>
 
-                <div class="container-contato">
+            <div class="container-contato">
 
-                    <form class="form-contato">
-                        <input id="nome" type="text" placeholder="Nome" />
-                        <input id="email" type="email" placeholder="E-mail" />
-                        <input id="telefone" type="tel" placeholder="Telefone" />
-                        <input id="assunto" type="text" placeholder="Assunto" />
-                        <textarea id="mensagem" placeholder="Digite a mensagem"></textarea>
-                        <input id="enviar" type="submit" value="Enviar" />
-                    </form>
+                <form class="form-contato">
+                    <input id="nome" type="text" placeholder="Nome" />
+                    <input id="email" type="email" placeholder="E-mail" />
+                    <input id="telefone" type="tel" placeholder="Telefone" />
+                    <input id="assunto" type="text" placeholder="Assunto" />
+                    <textarea id="mensagem" placeholder="Digite a mensagem"></textarea>
+                    <input id="enviar" type="submit" value="Enviar" />
+                </form>
 
-                    <div class="contatos-list">
-                        <img id="img-email" src="./imagens/email.png" />
-                        <h3>techacademy@dev.com.br</h3>
+                <div class="contatos-list">
+                    <img id="img-email" src="./imagens/email.png" />
+                    <h3>techacademy@dev.com.br</h3>
 
-                        <img id="img-telefone" src="./imagens/telefone.png" />
-                        <h3>(62) 3333-3333</h3>
+                    <img id="img-telefone" src="./imagens/telefone.png" />
+                    <h3>(62) 3333-3333</h3>
 
-                        <img id="img-linkedin" src="./imagens/linkedin.png" />
-                        <a id="link-linkedin" href="https://www.linkedin.com/in/diony-cezar-justino-da-silva-48319029/"
-                            target="_blank">Linkedin
-                        </a>
+                    <img id="img-linkedin" src="./imagens/linkedin.png" />
+                    <a id="link-linkedin" href="https://www.linkedin.com/in/diony-cezar-justino-da-silva-48319029/"
+                        target="_blank">Linkedin
+                    </a>
 
-                        <img id="img-github" src="./imagens/github.png" />
-                        <a id="link-github" href="https://github.com/DionyJustino" target="_blank">Github</a>
-                    </div>
+                    <img id="img-github" src="./imagens/github.png" />
+                    <a id="link-github" href="https://github.com/DionyJustino" target="_blank">Github</a>
                 </div>
             </div>
-        </section>
-    </body>
+        </div>
+    </section>
+</body>
+
 </html>
